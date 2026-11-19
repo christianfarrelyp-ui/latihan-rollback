@@ -1,5 +1,5 @@
-# app.py - Versi 1 (Stabil)
+# app.py - Versi 2 (BUG: lupa f-string)
 def sapa(nama):
-    return f"Halo, {nama}!"
+    return "Halo, {nama}!" 
 
 print(sapa("TokoNusa"))
